@@ -11,8 +11,8 @@ var messages = {
 };
 
 // gulp.task('concatScripts', function () {
-//     gulp.src(['js/jquery-2.2.4.min.js', 
-//               'js/plugins.js', 
+//     gulp.src(['js/jquery-2.2.4.min.js',
+//               'js/plugins.js',
 //               'js/functions.js'
 //               'revolution/js/jquery.themepunch.tools.min.js?rev=5.0',
 //               'revolution/js/jquery.themepunch.revolution.min.js?rev=5.0',
@@ -77,7 +77,7 @@ gulp.task('sass', function () {
  */
 gulp.task('watch', function () {
     gulp.watch('_scss/*.scss', ['sass']);
-    gulp.watch(['*.index.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+    gulp.watch(['*.index.html', '_layouts/*.html', '_includes/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
 /**
