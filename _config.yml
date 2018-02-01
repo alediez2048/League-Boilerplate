@@ -1,6 +1,10 @@
 name: Your New Jekyll Site
-markdown: redcarpet
-highlighter: rouge # or rouge or null
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 repository: 'rendrap/League-Boilerplate'
 paginate: 4

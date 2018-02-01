@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "New subway line has the most advanced technology in the world"
+title:  "New subway line has the most advanced tech in the world"
 date:   2017-08-18 22:51:03
 categories: [technology, city]
 ---
 
-Blue Monday, which falls on 18 January in 2016, is allegedly the most depressing day of the year. Understandably, tightened purse strings following the festive splurge, time passed since Christmas and failed new year resolutions is not a combination for happiness – but why is the third Monday in January apparently the worst day of the year?
+The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words.
 
-The theory was first published in 2005 a press released under the name of Cliff Arnall, who at the time was a tutor at the Centre for Lifelong Learning – a Further Education centre associated with Cardiff University. Later, however, the Guardian printed a statement from the university distancing itself from the psychology professor: “Cardiff University asked us to point out that Cliff Arnall… was a former part-time tutor at the university but left in February.
+Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.
+
+If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental. To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the
 
 The third Monday of January is supposed to be the most depressing day of the year. Whether you believe that or not, the long nights, cold weather and trying to keep to new year resolutions are all probably getting to you a little by now. To make matters worse many will still be recovering from their Christmas spending
 
