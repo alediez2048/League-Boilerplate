@@ -139,7 +139,11 @@
 							<i class="fa fa-image"></i>
 						</div>
 						<div class="entry--meta">
-							<span><a href="#">Business</a></span>
+							<!-- {% assign categories = post.categories %} -->
+							{% for category in categories %}
+								<span><a href="#">{{ post.category }}</a></span>
+								{% unless forloop.last %},{% endunless %}
+							{% endfor %}
 						</div>
 						<div class="entry--title">
 							<h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>

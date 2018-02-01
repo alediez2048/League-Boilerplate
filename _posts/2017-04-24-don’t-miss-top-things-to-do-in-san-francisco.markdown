@@ -5,9 +5,9 @@ date:   2017-04-24 18:11:03
 categories: travel
 ---
 
-Blue Monday, which falls on 18 January in 2016, is allegedly the most depressing day of the year. Understandably, tightened purse strings following the festive splurge, time passed since Christmas and failed new year resolutions is not a combination for happiness – but why is the third Monday in January apparently the worst day of the year?
+You can make some quick cash by switching your bank account to one with a bonus. Some banks are giving away £150 for moving your custom, while others offer cashback or high interest. Of course it’s worth checking you won’t lose out in other ways such as high overdraft fees. If you’re likely to go into the red you might be better off switching to a bank with lower fees or even a small interest free overdraft.
 
-The theory was first published in 2005 a press released under the name of Cliff Arnall, who at the time was a tutor at the Centre for Lifelong Learning – a Further Education centre associated with Cardiff University. Later, however, the Guardian printed a statement from the university distancing itself from the psychology professor: “Cardiff University asked us to point out that Cliff Arnall… was a former part-time tutor at the university but left in February.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste fuga nesciunt reprehenderit placeat pariatur nostrum velit ullam quis perspiciatis mollitia, animi consectetur expedita temporibus maxime enim voluptates obcaecati rem, tempora id veniam. Ipsum sit quod sed at, reprehenderit ratione excepturi et voluptatem, dolorem enim magnam porro aspernatur, cum, iste nam.
 
 The third Monday of January is supposed to be the most depressing day of the year. Whether you believe that or not, the long nights, cold weather and trying to keep to new year resolutions are all probably getting to you a little by now. To make matters worse many will still be recovering from their Christmas spending
 

@@ -5,7 +5,11 @@ date:   2018-01-02 09:11:03
 categories: [modern, photography]
 ---
 
-Blue Monday, which falls on 18 January in 2016, is allegedly the most depressing day of the year. Understandably, tightened purse strings following the festive splurge, time passed since Christmas and failed new year resolutions is not a combination for happiness – but why is the third Monday in January apparently the worst day of the year?
+A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.
+
+I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.
+
+When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a
 
 The theory was first published in 2005 a press released under the name of Cliff Arnall, who at the time was a tutor at the Centre for Lifelong Learning – a Further Education centre associated with Cardiff University. Later, however, the Guardian printed a statement from the university distancing itself from the psychology professor: “Cardiff University asked us to point out that Cliff Arnall… was a former part-time tutor at the university but left in February.
 
@@ -15,14 +19,11 @@ So how can you make today – and the rest of January – a little better for yo
 
 You can make some quick cash by switching your bank account to one with a bonus. Some banks are giving away £150 for moving your custom, while others offer cashback or high interest. Of course it’s worth checking you won’t lose out in other ways such as high overdraft fees. If you’re likely to go into the red you might be better off switching to a bank with lower fees or even a small interest free overdraft.
 
-What’s up in the loft? Or under the bed? If you aren’t sure it probably means you don’t need it – and that’s a sign you should try to sell it. If there’s the potential for it to be rare or part of a collection it’s worth seeking specialist advice. Otherwise head to a boot fair or list it online. Just don’t forget to factor in costs such as postage or fees. The are more tips in our step-by-step guide to selling online below. Just click through the slides.
-
 Did you decide to stop smoking this year? Or was it drinking for a month? Whatever your resolution don’t just think about the health benefits as it could also be helping your bank balance. The average smoker lights up 12 cigarettes a day, adding up to nearly £150 in January. Having five less pints of beer or glasses of wine each week could easily save you £100 this month.
 
 The sales are still on, and with the temperatures dropping there’s probably the temptation to kit yourself out in a new jumper or winter coat. Well if you’ve got some old woollies down the back of the wardrobe, there’s a good chance your friends do too. Getting a group of you together to swap clothes means you’re getting a new look for free, adding some extra pounds to your purse to save or spend elsewhere.
 
 You can make some quick cash by switching your bank account to one with a bonus. Some banks are giving away £150 for moving your custom, while others offer cashback or high interest. Of course it’s worth checking you won’t lose out in other ways such as high overdraft fees. If you’re likely to go into the red you might be better off switching to a bank with lower fees or even a small interest free overdraft.
 
-What’s up in the loft? Or under the bed? If you aren’t sure it probably means you don’t need it – and that’s a sign you should try to sell it. If there’s the potential for it to be rare or part of a collection it’s worth seeking specialist advice. Otherwise head to a boot fair or list it online. Just don’t forget to factor in costs such as postage or fees. The are more tips in our step-by-step guide to selling online below. Just click through the slides.
 
 Did you decide to stop smoking this year? Or was it drinking for a month? Whatever your resolution don’t just think about the health benefits as it could also be helping your bank balance. The average smoker lights up 12 cigarettes a day, adding up to nearly £150 in January. Having five less pints of beer or glasses of wine each week could easily save you £100 this month.”
