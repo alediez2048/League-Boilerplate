@@ -1,5 +1,10 @@
 name: Your New Jekyll Site
 markdown: redcarpet
-highlighter: pygments # or rouge or null
+highlighter: rouge # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 repository: 'rendrap/League-Boilerplate'
+paginate: 4
+paginate_path: "/blog/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
