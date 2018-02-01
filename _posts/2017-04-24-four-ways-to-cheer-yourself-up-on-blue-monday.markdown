@@ -2,6 +2,7 @@
 layout: post
 title:  "Four ways to cheer yourself up on Blue Monday!"
 date:   2017-04-24 18:11:03
+thumb: 5.jpg
 categories: travel
 ---
 

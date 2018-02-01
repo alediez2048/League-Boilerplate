@@ -2,6 +2,7 @@
 layout: post
 title:  "New subway line has the most advanced tech in the world"
 date:   2017-08-18 22:51:03
+thumb: 4.jpg
 categories: [technology, city]
 ---
 

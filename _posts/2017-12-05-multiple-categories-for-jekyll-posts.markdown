@@ -1,16 +1,18 @@
 ---
 layout: post
-title:  "Old cameras can capture images better than nowdays camera!"
-date:   2018-01-02 09:11:03
-thumb: 1.jpg
-categories: [modern, photography]
+title:  "Multiple categories for Jekyll posts"
+date:   2017-12-05 09:11:03
+thumb: 2.jpg
+categories: [jekyll]
 ---
 
-A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.
+If you want to be able to assign posts to multiple categories in Jekyll, here’s one way to do it.
 
-I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.
+In your YAML front matter, you can provide a list of categories like that:
 
-When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a
+categories: [math, cs]
+
+Of course, after that you want to, say, view all posts categorized as math on a page that has category: math. However, your natural first guess - filter all posts where post.categories contains “math” - won’t work because of liquid’s peculiarities (essentially, there’s no nice way to filter the elements of a list according to a condition). So what I did instead is the following (slightly ugly) hack:
 
 The theory was first published in 2005 a press released under the name of Cliff Arnall, who at the time was a tutor at the Centre for Lifelong Learning – a Further Education centre associated with Cardiff University. Later, however, the Guardian printed a statement from the university distancing itself from the psychology professor: “Cardiff University asked us to point out that Cliff Arnall… was a former part-time tutor at the university but left in February.
 
