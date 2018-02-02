@@ -146,20 +146,25 @@ layout: default
         <div class="entry-prev-next clearfix">
           <div class="entry-prev">
             <div class="entry-prev-content">
-              <img src="assets/images/blog/thumb/1.jpg" alt="title">
+          {% if page.previous.url %}
+              <img src={{ "assets/images/blog/thumb/" | relative_url}}{{ page.thumb }} alt="title">
               <div class="entry-desc">
                 <p>previous post</p>
-                <a href="#">Four ways to cheer yourself up on the Blue Monday!</a>
+                <a href="{{page.previous.url}}">{{page.previous.title}}</a>
               </div>
+          {% endif %}
             </div>
           </div>
+
           <div class="entry-next">
             <div class="entry-next-content">
-              <img src="assets/images/blog/thumb/2.jpg" alt="title">
+          {% if page.next.url %}
+              <img src={{ "assets/images/blog/thumb/" | relative_url}}{{ page.thumb }} alt="title">
               <div class="entry-desc">
                 <p>next post</p>
-                <a href="#">Old cameras can capture images better than nowdays camera!</a>
+                <a href="{{page.next.url}}">{{page.next.title}}</a>
               </div>
+          {% endif %}
             </div>
           </div>
         </div>
