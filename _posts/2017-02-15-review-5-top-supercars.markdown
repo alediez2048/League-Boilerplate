@@ -2,7 +2,7 @@
 layout: post
 title:  "Review of 5 top supercars"
 date:   2017-02-15 09:11:03
-thumb: 3.jpg
+thumb: 8.jpg
 categories: [modern]
 ---
 
