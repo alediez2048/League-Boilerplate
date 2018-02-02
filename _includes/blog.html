@@ -174,7 +174,7 @@
 								{% if page == paginator.page %}
 									<li class="active"><a>{{ page }}</a></li>
 								{% elsif page == 1 %}
-									<li><a href="{{ paginator.previous_page_path | relative_url | replace: '//', '/' }}">{{ page }}</a></li>
+									<li><a href="{{ "/blog/" | relative_url }}">{{ page }}</a></li>
 								{% else %}
 									<li><a href="{{ site.paginate_path | relative_url | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
 								{% endif %}
