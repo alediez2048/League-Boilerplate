@@ -66,6 +66,25 @@
 
 /*------------------------------------*    #GLOBAL STYLES
 \*------------------------------------*/
+p.p {
+  margin-bottom: 0.5em; }
+
+p.f {
+  padding-left: 10px; }
+
+.result.entry-desc p {
+  margin-bottom: 0.5em; }
+
+.widget-recent-posts .result img {
+  left: 5px; }
+
+.blog-entry #search {
+  text-transform: none;
+  padding-left: 10px; }
+
+input.search-input {
+  margin-bottom: 1em; }
+
 body,
 html {
   font-size: 13px; }
