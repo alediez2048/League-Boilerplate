@@ -21,7 +21,7 @@ console.log( jQuery.type(index) );
 // builds reference data
 var store = [{% for post in site.posts %}{
   "title": {{post.title | jsonify}},
-  "link": {{ post.url | relative_url | jsonify }},
+  "link": {{ post.url | jsonify }},
   "image": {{ post.thumb | jsonify }},
   "date": {{ post.date | date: '%B %-d, %Y' | jsonify }},
   "category": {{ post.categories | jsonify }},
@@ -42,7 +42,7 @@ $(document).ready(function() {
     // Loop through, match, and add results
     for (var item in result) {
       var ref = result[item].ref;
-      var searchitem = '<div class="widget-recent-posts"><div class="result entry"><img src={{ "/assets/images/blog/thumb/"| relative_url}}'+store[ref].image+' alt="'+store[ref].title+'" class="result-img"><div class="result entry-desc"><div class="entry-title"><a href={{'+store[ref].link+' | relative_url}} class="post-title">'+store[ref].title+'</a><p class="p">'+store[ref].category+' &minus; '+store[ref].date+'</p></div><p>'+store[ref].excerpt+'</p></div><hr></div>';
+      var searchitem = '<div class="widget-recent-posts"><div class="result entry"><img src={{ "/assets/images/blog/thumb/"| relative_url}}'+store[ref].image+' alt="'+store[ref].title+'" class="result-img"><div class="result entry-desc"><div class="entry-title"><a href= '+store[ref].link+' {{ relative_url }} class="post-title">'+store[ref].title+'</a><p class="p">'+store[ref].category+' &minus; '+store[ref].date+'</p></div><p>'+store[ref].excerpt+'</p></div><hr></div>';
       resultdiv.append(searchitem);
     }
   });
