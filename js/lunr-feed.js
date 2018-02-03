@@ -21,7 +21,7 @@ console.log( jQuery.type(index) );
 // builds reference data
 var store = [{% for post in site.posts %}{
   "title": {{post.title | jsonify}},
-  "link": {{ post.url | jsonify }},
+  "link": {{ post.url | relative_url | jsonify }},
   "image": {{ post.thumb | jsonify }},
   "date": {{ post.date | date: '%B %-d, %Y' | jsonify }},
   "category": {{ post.categories | jsonify }},
