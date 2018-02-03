@@ -34,7 +34,7 @@ var messages = {
  */
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
+    return cp.spawn( jekyll , ['build','--incremental'], {stdio: 'inherit'})
         .on('close', done);
 });
 
@@ -50,6 +50,8 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
  */
 gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
     browserSync({
+        open: false,
+        logPrefix: 'Jorge',
         server: {
             baseDir: '_site'
         }
@@ -77,7 +79,7 @@ gulp.task('sass', function () {
  */
 gulp.task('watch', function () {
     gulp.watch('_scss/*.scss', ['sass']);
-    gulp.watch(['*.index.html', '_layouts/*.html', '_includes/*.html', 'blog/*.html', '_posts/*'], ['jekyll-rebuild']);
+    gulp.watch(['*.index.html', '_layouts/*.html', '_includes/*.html', 'blog/*.html','search/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
 /**
