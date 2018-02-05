@@ -1,4 +1,6 @@
 _site
 .idea
-node_modulesGemfile
+node_modules
+Gemfile
 Gemfile.lock
+.jekyll-metadata
