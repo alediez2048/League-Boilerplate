@@ -17,7 +17,7 @@ index.add({
   image: {{post.thumb | jsonify}},
   id: {{count}}
 });{% assign count = count | plus: 1 %}{% endfor %}
-console.log( jQuery.type(index) );
+// console.log( jQuery.type(index) );
 // builds reference data
 var store = [{% for post in site.posts %}{
   "title": {{post.title | jsonify}},
@@ -29,10 +29,14 @@ var store = [{% for post in site.posts %}{
 }{% unless forloop.last %},{% endunless %}{% endfor %}]
 // builds search
 $(document).ready(function() {
-  $('input#search').on('keyup', function () {
+  $('#searchForm').on('submit', function(e){
+          // Stop the default action
+          e.preventDefault()
+
+  // $('input#search').on('keyup', function () {
     var resultdiv = $('#results');
     // Get query
-    var query = $(this).val();
+    var query = $('#search-query').val();
     // Search for it
     var result = index.search(query);
     // Show results
