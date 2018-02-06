@@ -111,6 +111,9 @@ input.search-input {
 #results-nav p {
   color: #FFFFFF; }
 
+.module-fullscreen {
+  overflow: auto; }
+
 body,
 html {
   font-size: 13px; }
