@@ -67,10 +67,13 @@
 /*------------------------------------*    #GLOBAL STYLES
 \*------------------------------------*/
 p.p {
-  margin-bottom: 0.5em; }
+  margin-bottom: 0.5em;
+  color: #616161; }
 
 p.f {
-  padding-left: 10px; }
+  padding-left: 10px;
+  margin-bottom: 10px;
+  color: #616161; }
 
 .result.entry-desc p {
   margin-bottom: 0.5em; }
@@ -84,6 +87,29 @@ p.f {
 
 input.search-input {
   margin-bottom: 1em; }
+
+#results hr {
+  margin: 10px auto; }
+
+.module-search.module-active .pos-vertical-center {
+  top: 10%; }
+
+.module-search.module-active .container-nav {
+  margin-top: 70px; }
+
+#results-nav .entry .entry-title a {
+  color: #1BB580; }
+  #results-nav .entry .entry-title a:hover {
+    color: #26FFB4; }
+
+#results-nav .entry .entry-title p {
+  color: #FFFFFF; }
+
+#results-nav .entry .entry-title ~ p {
+  color: #FFFFFF; }
+
+#results-nav p {
+  color: #FFFFFF; }
 
 body,
 html {
