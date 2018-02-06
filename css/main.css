@@ -108,6 +108,9 @@ input.search-input {
 #results-nav .entry .entry-title ~ p {
   color: #FFFFFF; }
 
+#results-nav p {
+  color: #FFFFFF; }
+
 body,
 html {
   font-size: 13px; }
