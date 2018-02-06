@@ -150,7 +150,7 @@ layout: default
               <img src={{ "assets/images/blog/thumb/" | relative_url}}{{ page.thumb }} alt="title">
               <div class="entry-desc">
                 <p>previous post</p>
-                <a href="{{page.previous.url}}">{{page.previous.title}}</a>
+                <a href="{{page.previous.url | relative_url }}">{{page.previous.title}}</a>
               </div>
           {% endif %}
             </div>
@@ -162,31 +162,13 @@ layout: default
               <img src={{ "assets/images/blog/thumb/" | relative_url}}{{ page.thumb }} alt="title">
               <div class="entry-desc">
                 <p>next post</p>
-                <a href="{{page.next.url}}">{{page.next.title}}</a>
+                <a href="{{page.next.url | relative_url }}">{{page.next.title}}</a>
               </div>
           {% endif %}
             </div>
           </div>
         </div>
         <!-- .entry-prev-next end -->
-
-        <div class="entry-widget entry-bio clearfix">
-          <div class="entry-widget-title">
-            <h4>about author</h4>
-          </div>
-          <div class="entry-widget-content">
-            <img src="assets/images/team/thumb/1.jpg" alt="author">
-            <div class="entry-bio-desc">
-              <p>we’re league, an award-winning digital marketing agency based in New York. Founded by Begha over many cups of tea at her kitchen table in 2009, our brand promise is simple: to provide powerful digital marketing solutions to small and medium businesses.</p>
-              <a href="#"><i class="fa fa-facebook"></i></a>
-              <a href="#"><i class="fa fa-twitter"></i></a>
-              <a href="#"><i class="fa fa-vimeo-square"></i></a>
-              <a href="#"><i class="fa fa-linkedin"></i></a>
-              <a href="#"><i class="fa fa-rss"></i></a>
-            </div>
-          </div>
-        </div>
-        <!-- .entry-bio end -->
 
         <div class="entry-widget entry-related clearfix">
           <div class="entry-widget-title">
@@ -220,39 +202,6 @@ layout: default
           </div>
         </div>
         <!-- .entry-related end -->
-
-<!-- .entry-comments start -->
-        <!-- <div class="entry-widget entry-add-comment mb-0 clearfix">
-          <div class="entry-widget-title">
-            <h4>Leave A Reply</h4>
-          </div>
-          <div class="entry-widget-content">
-            <form id="post-comment" class="mb-0">
-              <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6">
-                  <input type="text" class="form-control" id="first-name" placeholder="First Name:">
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6">
-                  <input type="text" class="form-control" id="last-name" placeholder="Last Name:">
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6">
-                  <input type="email" class="form-control" id="email" placeholder="Email:">
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6">
-                  <input type="text" class="form-control" id="website" placeholder="website:">
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                  <textarea class="form-control" id="comment" rows="2" placeholder="Comment"></textarea>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                  <button type="submit" class="btn btn--secondary btn--block">Post Your Comment</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div> -->
-        <!-- .entry-comments end -->
-
 
       </div>
       <!-- .col-md-9 end -->

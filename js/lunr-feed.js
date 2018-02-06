@@ -38,12 +38,32 @@ $(document).ready(function() {
     // Show results
     resultdiv.empty();
     // Add status
-    resultdiv.prepend('<p class="f">Found '+result.length+' result(s)</p>');
+    resultdiv.prepend('<p class="f">Found '+result.length+' result(s)</p><hr>');
     // Loop through, match, and add results
     for (var item in result) {
       var ref = result[item].ref;
       var searchitem = '<div class="widget-recent-posts"><div class="result entry"><img src={{ "/assets/images/blog/thumb/"| relative_url}}'+store[ref].image+' alt="'+store[ref].title+'" class="result-img"><div class="result entry-desc"><div class="entry-title"><a href={{ ""| relative_url}}'+store[ref].link+'  class="post-title">'+store[ref].title+'</a><p class="p">'+store[ref].category+' &minus; '+store[ref].date+'</p></div><p>'+store[ref].excerpt+'</p></div><hr></div>';
       resultdiv.append(searchitem);
+    }
+  });
+});
+
+$(document).ready(function() {
+  $('input#search-nav').on('keyup', function () {
+    var resultdivnav = $('#results-nav');
+    // Get query
+    var query = $(this).val();
+    // Search for it
+    var result = index.search(query);
+    // Show results
+    resultdivnav.empty();
+    // Add status
+    resultdivnav.prepend('<p class="f">Found '+result.length+' result(s)</p>');
+    // Loop through, match, and add results
+    for (var item in result) {
+      var ref = result[item].ref;
+      var searchitem = '<div class="widget-recent-posts"><div class="result entry"><img src={{ "/assets/images/blog/thumb/"| relative_url}}'+store[ref].image+' alt="'+store[ref].title+'" class="result-img"><div class="result entry-desc"><div class="entry-title"><a href={{ ""| relative_url}}'+store[ref].link+'  class="post-title">'+store[ref].title+'</a><p class="p">'+store[ref].category+' &minus; '+store[ref].date+'</p></div><p>'+store[ref].excerpt+'</p></div><hr></div>';
+      resultdivnav.append(searchitem);
     }
   });
 });

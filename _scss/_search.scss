@@ -1,46 +1,15 @@
-// .search-input {
-//   -webkit-appearance: none;
-//   border: 0;
-//   border-radius: .25em;
-//   font-family: inherit;
-//   font-size: 1.25em;
-//   margin: 0 auto 1em;
-//   padding: .5em;
-//   width: 100%;
-//   min-height: 50px;
-// }
-// .blog-entry {
-
-//   .search-input {
-//     text-transform: none;
-//     padding-left: 1.5em;
-//     }
-
-// }
-
-// .result {
-//   margin-bottom: 2em;
-
-//   p.p {
-//     margin-bottom: 0;
-//     padding-left: 1.5em;
-//     }
-// }
-
-// .result-img {
-//   height: 49px;
-//   width: 49px;
-//   margin: 0 2em 0 0;
-//   object-fit: cover;
-// }
+// Custom styling for displaying lunr.js search result properly
+// Start Search Style
 
 p.p {
   margin-bottom: 0.5em;
-  // padding-left: 10px;
+  color: #616161;
 }
 
 p.f {
   padding-left: 10px;
+  margin-bottom: 10px;
+  color: #616161;
 }
 
 .result.entry-desc p {
@@ -59,3 +28,45 @@ p.f {
 input.search-input {
   margin-bottom: 1em;
 }
+
+#results hr {
+  margin: 10px auto;
+}
+
+// End Search Style
+
+// <--- Search modal styling START --->
+
+.module-search.module-active .pos-vertical-center{
+  top: 10%;
+}
+
+// #results-nav .entry-title a+p{
+//   color: #FFFFFF;
+// }
+
+.module-search.module-active .container-nav {
+  margin-top: 70px;
+}
+
+#results-nav .entry .entry-title {
+  a {
+    color : #1BB580;
+
+    &:hover {
+      color: #26FFB4;
+    }
+  }
+
+  p {
+    color: #FFFFFF;
+  }
+
+  ~p {
+    color : #FFFFFF;
+  }
+
+
+}
+
+// <--- Search modal styling END --->
