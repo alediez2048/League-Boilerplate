@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Old cameras can capture images better than nowdays camera!"
-date:   2018-01-02 09:11:03
-thumb: 6.jpg
-categories: [modern, photography]
+title: "Dealing with non-fast-forward errors"
+date: 2017-11-29 09:11:03
+thumb: 3.jpg
+categories: [git, technology]
 ---
 
 A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.
