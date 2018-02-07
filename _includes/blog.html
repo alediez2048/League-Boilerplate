@@ -1,4 +1,4 @@
-<!-- Page Title #5  -->
+Page Title #5  -->
 
 <section id="page-title" class="page-title bg-overlay bg-overlay-dark3">
 	<div class="bg-section">
@@ -122,7 +122,7 @@
 								{{ post.date | date: '%B %d, %Y' }}
 							</div>
 							<div class="entry--more">
-								<a href="#"><i class="fa fa-long-arrow-right"></i><span>more</span></a>
+								<a href="{{ post.url | relative_url }}"><i class="fa fa-long-arrow-right"></i><span>more</span></a>
 							</div>
 						</div>
 					</div>
@@ -166,7 +166,14 @@
 		<!-- .row end -->
 		{% endif %}
 
+
+
+
+
 		</div><!-- .col-md-8 end -->
+
+		{% include cat-post-list.html %}
+
 	</div><!-- .container end -->
 </section>
-<!-- #blog end -->
+<!-- #blog end
