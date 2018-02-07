@@ -1,0 +1,21 @@
+<!-- ========================= Post list Start ============================ -->
+    <div id="cat-post-list" class="col-xs-12 col-sm-12 col-md-8 hide">
+      <div class="widget-recent-posts glyphicon-record grid">
+      {% for post in site.posts %}
+        <div id="widget-cat" class="result entry element-item {% for category in post.categories %}{{category}}{% unless forloop.last %}{{' '}}{% endunless %}{% endfor %}">
+          <img src={{ "assets/images/blog/thumb/" | relative_url }}{{post.thumb}} alt="{{ post.title }}" class="result-img">
+          <div class="result entry-desc">
+            <div class="entry-title">
+              <a href="{{ post.url | relative_url }}" class="post-title">{{ post.title }}</a>
+              <p class="p">
+                {% for category in post.categories %}{{ category }}{% unless forloop.last %}, {% endunless %}{% endfor %} − {{ post.date | date: '%B %d, %Y' }}
+              </p>
+            </div>
+            <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+          </div>
+          <hr>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+<!-- ========================= Post list End ========================= -->

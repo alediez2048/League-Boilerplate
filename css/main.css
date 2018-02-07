@@ -114,6 +114,9 @@ input.search-input {
 .module-fullscreen {
   overflow: auto; }
 
+#widget-cat {
+  margin-bottom: 0px; }
+
 body,
 html {
   font-size: 13px; }

@@ -71,3 +71,22 @@ $(document).ready(function() {
     }
   });
 });
+
+// init Isotope
+var $grid = $('.grid').isotope({
+  itemSelector: '.element-item',
+    layoutMode: 'fitRows'
+  // options
+});
+
+// filter items on button click
+$('.filter-button-group').on( 'click', 'a', function() {
+  var filterValue = $(this).attr('data-filter');
+  $('#results').empty();
+  $('#cat-post-list').removeClass('hide')
+  $grid.isotope({ filter: filterValue });
+});
+$('.button-group a.cat').on('click', function(){
+  $('.button-group a.cat').removeClass('active');
+  $(this).addClass('active');
+});
