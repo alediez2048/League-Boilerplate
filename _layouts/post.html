@@ -88,6 +88,12 @@ layout: default
                             <i class="fa fa-image"></i>
                         </div>
                         <div class="entry--meta">
+                            <div class="breadcrumb">
+                              <a href="{{ "/index.html" | relative_url }}"><span class="fa fa-home"></span> Home</a>
+                              <a href="{{ "/blog/" | relative_url }}"><span class="fa fa-angle-right"></span> Blog </a>
+                              <a><span class="fa fa-angle-right"></span> {{ page.title }}</a>
+                              <hr id="bread">
+                            </div>
                             <span>{{ page.date | date: '%B %d, %Y' }}</span> / {% for category in page.categories %}
                             <span><a style="cursor:default; pointer-events: none;">{{ category }}</a></span> {% unless forloop.last %},{% endunless %} {% endfor %}
                         </div>

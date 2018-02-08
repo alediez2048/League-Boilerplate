@@ -117,6 +117,17 @@ input.search-input {
 #widget-cat {
   margin-bottom: 0px; }
 
+#breadcrumb {
+  margin-bottom: .75rem;
+  padding: 0.5rem 0.5rem;
+  opacity: 0.85;
+  border-radius: 2px; }
+  #breadcrumb a {
+    color: #000000; }
+
+hr#bread {
+  margin: 5px 0 4px 0; }
+
 body,
 html {
   font-size: 13px; }
