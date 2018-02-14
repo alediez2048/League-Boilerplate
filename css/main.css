@@ -66,20 +66,6 @@
 
 /*------------------------------------*    #GLOBAL STYLES
 \*------------------------------------*/
-.workflow .tab-pane .col-content {
-  padding: 50px !important; }
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .workflow {
-    padding-top: 70px;
-    padding-bottom: 70px; }
-  .workflow .tab-pane .col-content {
-    padding: 50px 25px 50px 25px !important; } }
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .workflow .tab-pane .col-content {
-    padding: 50px 25px 50px 25px !important; } }
-
 p.p {
   margin-bottom: 0.5em;
   color: #616161; }
