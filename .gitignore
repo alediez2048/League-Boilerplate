@@ -4,4 +4,5 @@ node_modules
 Gemfile
 Gemfile.lock
 .jekyll-metadata
+uru_rt.exe
 uru*

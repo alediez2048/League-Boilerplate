@@ -70,6 +70,7 @@
 
 // @import "reset";
 // @import "syntax";
+@import "social-icons";
 @import "search";
 @import "breadcrumb";
 
@@ -5877,7 +5878,7 @@ a.next-section:hover {
 .testimonial-panel .testimonial--icon {
     position: relative;
     height: 26px;
-    background: url(../images/testimonial/icon.png) center no-repeat;
+    background: url(../assets/images/testimonial/icon.png) center no-repeat;
     margin-bottom: 30px
 }
 
