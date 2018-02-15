@@ -1,36 +1,40 @@
-
-
-<!-- Hero Section
-====================================== -->
+<!-- Hero Section ====================================== -->
 <section id="slider" class="slider slider-dark">
-  <!-- START REVOLUTION SLIDER 5.0 -->
   <div class="rev_slider_wrapper">
-    <!-- Slide #1 -->
-      <div class="slide--item">
-        <div class="bg-section">
-            <img src="assets/images/sliders/slide-bg/18.jpg" alt="background">
-        </div>
-        <div class="pos-vertical-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="slide-action mb-50">
-                </div>
-                <div class="slide--headline text-heading"><span class="typed-text" data-typed-string="Hi there!, Welcome to my Website, Make yourself @ Home "></span></div>
+    <div class="slide--item">
+      <div class="homepage-hero-module">
+          <div class="video-container">
+              <div class="filter"></div>
+              <video autoplay loop class="fillWidth">
+                  <source src="{{ "/assets/very-open-space/MP4/very-open-space.mp4" | relative_url }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                  <source src="{{ "/assets/very-open-space/WEBM/very-open-space.webm" | relative_url }}" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+              </video>
+              <div class="poster hidden">
+                  <img src="{{ "/assets/very-open-space/snapshots/very-open-space.jpg" | relative_url }}" alt="">
               </div>
-              <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="slide--bio text-heading">Developer, Marketer and Ping Pong Master</div>
-              </div>
-              
-            </div><!-- .row end -->
-          </div><!-- .container end -->
-        </div>
-      </div><!-- .slide-item end -->
-  
-    <!-- END REVOLUTION SLIDER -->
-  </div>
-  <!-- END OF SLIDER WRAPPER -->
-</section>
-<!-- #hero end --><!-- Skills #4
-============================================= -->
 
+              <div class="pos-vertical-center">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-xs-12 col-sm-12 col-md-12">
+                              <div class="slide-action mb-50"></div>
+                              <div id="slide--headline" class="slide--headline text-heading">
+                                <span class="typed-text" data-typed-string="Hi there!, Welcome to my Website, Make yourself @ Home"> Make yourself @ Home </span>
+                              </div>
+                          </div>
+                          <div class="col-xs-12 col-sm-12 col-md-6">
+                              <div id="slide--bio" class="slide--bio text-heading">Developer, Marketer and Ping Pong Master</div>
+                          </div>
+                      </div>
+                      <!-- .row end -->
+                  </div>
+                  <!-- .container end -->
+              </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- #hero end ====================================== -->
