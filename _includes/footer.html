@@ -56,3 +56,6 @@
 <script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
 <!-- RS Configration JS Files -->
 <script src="{{ "js/rsconfig.js" | relative_url }}"></script>
+{% if page.type == 'homepage' %}
+  <script src="{{ "js/video.js" | relative_url }}"></script>
+{% endif %}
