@@ -6,3 +6,4 @@ Gemfile.lock
 .jekyll-metadata
 uru_rt.exe
 uru*
+/js/jquery-background-video/
