@@ -23,7 +23,7 @@
 }
 
 .video-container .title-container {
-    z-index: 1000;
+    z-index: 50;
     position: absolute;
     top: 35%;
     width: 100%;
@@ -61,12 +61,13 @@ img {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background: #000;
+    // background: #000;
 }
 .video-container .poster img {
     width: 100%;
     bottom: 0;
     position: absolute;
+    // z-index: -10;
 }
 .video-container .filter {
     z-index: 100;
