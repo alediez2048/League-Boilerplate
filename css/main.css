@@ -117,78 +117,91 @@ input.search-input {
 #widget-cat {
   margin-bottom: 0px; }
 
-@media only screen and (max-width: 767px) and (min-width: 320px) {
-  #slide--bio {
-    padding: 0; } }
-
-@media only screen and (max-width: 991px) and (min-width: 768px) {
-  .video-container .pos-vertical-center {
-    top: 35%; } }
-
 #slide--headline {
   color: #FFFFFF; }
 
 #slide--bio {
   color: #E8E8E8; }
 
-.pos-vertical-center {
-  z-index: 100; }
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  #slide--bio {
+    padding: 0; } }
 
-.video-container .title-container {
-  z-index: 1000;
+.jquery-background-video-wrapper {
+  position: relative;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.jquery-background-video {
   position: absolute;
-  top: 35%;
-  width: 100%;
-  color: #fff; }
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
 
-.video-container .description .inner {
-  font-size: 1em;
-  width: 45%;
-  margin: 0 auto; }
+/**
+ * Fade in videos
+ * Note the .js class - so non js users still
+ * see the video
+ */
+.js .jquery-background-video {
+  opacity: 0;
+  transition: opacity 300ms linear; }
 
-img {
-  vertical-align: middle; }
+.js .jquery-background-video.is-visible {
+  opacity: 1; }
 
-.homepage-hero-module {
-  border-right: none;
-  border-left: none;
-  position: relative; }
+/**
+ * Pause/play button
+ */
+.jquery-background-video-pauseplay {
+  position: absolute;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  width: 20px;
+  height: 20px;
+  top: 15px;
+  right: 15px;
+  padding: 0 !important;
+  cursor: pointer;
+  outline: none !important; }
 
-.no-video .video-container video,
-.touch .video-container video {
+.jquery-background-video-pauseplay span {
   display: none; }
 
-.no-video .video-container .poster,
-.touch .video-container .poster {
-  display: block !important; }
-
-.video-container {
-  position: relative;
-  bottom: 0%;
-  left: 0%;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  background: #000; }
-
-.video-container .poster img {
-  width: 100%;
-  bottom: 0;
-  position: absolute; }
-
-.video-container .filter {
-  z-index: 100;
+.jquery-background-video-pauseplay:after,
+.jquery-background-video-pauseplay:before {
+  content: "";
   position: absolute;
-  background: rgba(0, 0, 0, 0.4);
-  width: 100%; }
+  left: 0;
+  top: 0;
+  transition: all .3s ease; }
 
-.video-container video {
-  position: absolute;
-  z-index: 0;
-  bottom: 0; }
+.jquery-background-video-pauseplay.play:before {
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #FFF; }
 
-.video-container video.fillWidth {
-  width: 100%; }
+.jquery-background-video-pauseplay.pause:before,
+.jquery-background-video-pauseplay.pause:after {
+  border-top: 10px solid #FFF;
+  border-bottom: 10px solid #FFF;
+  border-left: 5px solid #FFF; }
+
+.jquery-background-video-pauseplay.pause:after {
+  left: 10px; }
+
+.element-with-video-bg {
+  background-image: url(/assets/very-open-space/snapshots/very-open-space.jpg); }
 
 #breadcrumb {
   margin-bottom: .75rem;
