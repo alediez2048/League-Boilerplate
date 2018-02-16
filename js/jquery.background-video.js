@@ -215,7 +215,7 @@
 		pauseAfter: 300, // Seconds to play before pausing (0 for forever)
 		fadeOnPause: false, // For all (including manual) pauses
 		fadeOnEnd: true, // When we've reached the pauseAfter time
-		showPausePlay: true, // Show pause/play button
+		showPausePlay: false, // Show pause/play button
 		pausePlayXPos: 'center', // left|right|center
 		pausePlayYPos: 'bottom', // top|bottom|center
 		pausePlayXOffset: '15px', // pixels or percent from side - ignored if positioned center
