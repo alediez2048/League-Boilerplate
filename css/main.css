@@ -200,9 +200,6 @@ input.search-input {
 .jquery-background-video-pauseplay.pause:after {
   left: 10px; }
 
-.element-with-video-bg {
-  background-image: url(/assets/very-open-space/snapshots/very-open-space.jpg); }
-
 #breadcrumb {
   margin-bottom: .75rem;
   padding: 0.5rem 0.5rem;
