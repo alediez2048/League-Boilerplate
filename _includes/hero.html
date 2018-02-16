@@ -1,17 +1,10 @@
-<!-- Hero Section ====================================== -->
+<!--- Hero Section ====================================== -->
 <section id="slider" class="slider slider-dark">
-  <div class="rev_slider_wrapper">
-    <div class="slide--item">
-      <div class="homepage-hero-module">
-          <div class="video-container">
-              <div class="filter"></div>
-              <video autoplay loop class="fillWidth">
+              <div class="element-with-video-bg jquery-background-video-wrapper"></div>
+              <video data-bgvideo="true" autoplay loop muted class="my-background-video jquery-background-video" poster="{{ "/assets/very-open-space/snapshots/very-open-space.jpg" | relative_url }}">
                   <source src="{{ "/assets/very-open-space/MP4/very-open-space.mp4" | relative_url }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
                   <source src="{{ "/assets/very-open-space/WEBM/very-open-space.webm" | relative_url }}" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
               </video>
-              <div class="poster hidden">
-                  <img src="{{ "/assets/very-open-space/snapshots/very-open-space.jpg" | relative_url }}" alt="">
-              </div>
 
               <div class="pos-vertical-center">
                   <div class="container">
@@ -26,15 +19,8 @@
                               <div id="slide--bio" class="slide--bio text-heading">Developer, Marketer and Ping Pong Master</div>
                           </div>
                       </div>
-                      <!-- .row end -->
                   </div>
-                  <!-- .container end -->
               </div>
 
-
-          </div>
-        </div>
-      </div>
-    </div>
 </section>
 <!-- #hero end ====================================== -->
