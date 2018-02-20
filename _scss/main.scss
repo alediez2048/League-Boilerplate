@@ -71,6 +71,9 @@
 // @import "reset";
 // @import "syntax";
 @import "search";
+@import "bg-video";
+// @import "hero";
+@import "breadcrumb";
 
 body,
 html {
@@ -5876,7 +5879,7 @@ a.next-section:hover {
 .testimonial-panel .testimonial--icon {
     position: relative;
     height: 26px;
-    background: url(../images/testimonial/icon.png) center no-repeat;
+    background: url(../assets/images/testimonial/icon.png) center no-repeat;
     margin-bottom: 30px
 }
 
