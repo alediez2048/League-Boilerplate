@@ -2,29 +2,7 @@
 layout: default
 ---
 <!-- Page Title #8 =============== -->
-<section id="page-title" class="page-title bg-overlay bg-overlay-gradient2">
-    <div class="bg-section">
-        <img src="{{ "assets/images/page-title/title-6.jpg"| relative_url }}" alt="Background" />
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
-                <div class="title title-2 text-center">
-                    <div class="title--content">
-                        <div class="title--heading mb-60">
-                            <h1>Single Post</h1>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <!-- .title end -->
-            </div>
-            <!-- .col-md-12 end -->
-        </div>
-        <!-- .row end -->
-    </div>
-    <!-- .container end -->
-</section>
+
 <section id="blog" class="blog blog-single">
     <div class="container">
         <div class="row">
@@ -88,12 +66,12 @@ layout: default
                             <i class="fa fa-image"></i>
                         </div>
                         <div class="entry--meta">
-                            <div class="breadcrumb">
+<!--                             <div class="breadcrumb">
                               <a href="{{ "/index.html" | relative_url }}"><span class="fa fa-home"></span> Home</a>
                               <a href="{{ "/blog/" | relative_url }}"><span class="fa fa-angle-right"></span> Blog </a>
                               <a><span class="fa fa-angle-right"></span> {{ page.title }}</a>
                               <hr id="bread">
-                            </div>
+                            </div> -->
                             <span>{{ page.date | date: '%B %d, %Y' }}</span> / {% for category in page.categories %}
                             <span><a style="cursor:default; pointer-events: none;">{{ category }}</a></span> {% unless forloop.last %},{% endunless %} {% endfor %}
                         </div>
@@ -105,7 +83,7 @@ layout: default
                         </div>
                         <div class="entry--share">
                             <span class="share--title">share this article: </span>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u="><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-google-plus"></i></a>
                             <a href="#"><i class="fa fa-pinterest"></i></a>
