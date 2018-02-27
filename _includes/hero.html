@@ -12,7 +12,7 @@
                           <div class="col-xs-12 col-sm-12 col-md-12">
                               <div class="slide-action mb-50"></div>
                               <div id="slide--headline" class="slide--headline text-heading">
-                                <span class="typed-text" data-typed-string="Hi there!, Welcome to Latin Digital, Make yourself @ Home, Hola!, Bienvenido a Latin Digital, Siéntase en su Casa"> Make yourself @ Home </span>
+                                <span class="typed-text" data-typed-string="Hi there!, Welcome to Latin Digital, Make yourself @ Home"> Make yourself at Home </span>
                               </div>
                           </div>
                           <div class="col-xs-12 col-sm-12 col-md-6">
@@ -20,12 +20,46 @@
                           </div>
                       </div>
 
-                          <div class="slide-action" style="text-align:center; margin-top:0px;">
+                          <div class="col-xs-6 col-sm-6 col-md-6 slide-action" style="text-align:right;">
                             <a class="btn btn--secondary btn--white mr-30" href="{{ "/blog/" | relative_url }}">Read More </a>
-                            <a class="btn btn--white btn--bordered" href="#">Translate</a>
+                          </div>
+                          <div class="col-xs-6 col-sm-6 col-md-6 slide-action" style="text-align:left;">
+                          <a class="translate-button"  id="google_translate_element"></a>
                           </div>
                   </div>
               </div>
 
 </section>
 <!-- #hero end ====================================== -->
+
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,en,es,jv,ko,pt,ru,zh-CN', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+}
+
+
+</script>
+
+
+<style>
+
+.translate-button{
+
+    background-color: #fff;
+    color: #282828;
+    border: 2px solid #fff
+    font-family: 'Open Sans', sans-serif;
+    z-index: 2;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 46px;
+    width: 170px;
+    margin-bottom:100px;
+
+
+}
+
+
+
+</style>
