@@ -19,19 +19,31 @@
                               <div id="slide--bio" class="slide--bio text-heading">Developer, Marketer and Ping Pong Master</div>
                           </div>
                       </div>
-
-                          <div class="col-xs-6 col-sm-6 col-md-6 slide-action" style="text-align:right;">
-                            <a class="btn btn--secondary btn--white mr-30" href="{{ "/blog/" | relative_url }}">Read More </a>
-                          </div>
-                          <div class="col-xs-6 col-sm-6 col-md-6 slide-action" style="text-align:left;">
-                          <a class="translate-button"  id="google_translate_element"></a>
-                          </div>
+                      <div style="text-align:center;">
+                        <a class="btn btn--secondary btn--white mr-30" href="#">Read More </a>
+                        <a class="btn btn--white btn--bordered" id="scrollToBottom" href="#">Get Started</a>
+                      </div>
                   </div>
               </div>
 
 </section>
-<!-- #hero end ====================================== -->
 
+
+    <script type = "text/javascript">
+        $(function () {
+            $('#scrollToBottom').bind("click", function () {
+                $('html, body').animate({ scrollTop: $(document).height() }, 4200);
+                return false;
+            });
+            $('#scrollToTop').bind("click", function () {
+                $('html, body').animate({ scrollTop: 0 }, 5200);
+                return false;
+            });
+        });
+    </script>
+
+
+<!-- #hero 
 
 <div id="google_translate_element"></div><script type="text/javascript">
 function googleTranslateElementInit() {
@@ -66,3 +78,5 @@ function googleTranslateElementInit() {
 
 
 </style>
+
+end ====================================== -->
