@@ -200,6 +200,12 @@ input.search-input {
 .jquery-background-video-pauseplay.pause:after {
   left: 10px; }
 
+.hiddenItem {
+  display: none; }
+
+div#btn-more {
+  margin-bottom: 3em; }
+
 #breadcrumb {
   margin-bottom: .75rem;
   padding: 0.5rem 0.5rem;
