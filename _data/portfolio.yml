@@ -6,12 +6,12 @@ images:
 
   - filename: '14.jpg'
     title: 'Spa treatment in your home'
-    cat: [Web]
+    cat: ['Web Development']
     filters: [filter-web]
 
   - filename: '15.jpg'
-    title: 'Random title'
-    cat: [Web]
+    title: 'Printing is an Art'
+    cat: ['Print']
     filters: [filter-print]
 
   - filename: '16.jpg'
@@ -20,26 +20,26 @@ images:
     filters: [filter-branding, filter-print]
 
   - filename: '17.jpg'
-    title: 'Spa treatment in your home'
-    cat: [Web]
+    title: 'Web development agency'
+    cat: ['Web Development']
     filters: [filter-web]
 
   - filename: '18.jpg'
-    title: 'Random title'
-    cat: [Web]
-    filters: [filter-print]
+    title: 'Web dev in 2018'
+    cat: ['Web Development']
+    filters: [filter-web]
 
   - filename: '19.jpg'
-    title: 'View of my screen'
+    title: 'Branding development'
     cat: [Branding, Print]
     filters: [filter-branding, filter-print]
 
   - filename: '20.jpg'
     title: 'Spa treatment in your home'
-    cat: [Web]
-    filters: [filter-web]
+    cat: ['Packaging']
+    filters: [filter-packaging]
 
   - filename: '21.jpg'
-    title: 'Random title'
-    cat: [Web]
+    title: 'Nice Print title'
+    cat: ['Print']
     filters: [filter-print]

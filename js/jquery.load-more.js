@@ -37,4 +37,10 @@ $(document).ready(function () {
             }
     });
 
+    $('a#Allfilter').on('click',function (e) {
+        e.preventDefault();
+        $('a.btn-more').show();
+
+    });
+
 });
