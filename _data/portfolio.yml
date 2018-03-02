@@ -1,0 +1,45 @@
+images:
+  - filename: '13.jpg'
+    title: 'View of my screen'
+    cat: [Branding, Print]
+    filters: [filter-branding, filter-print]
+
+  - filename: '14.jpg'
+    title: 'Spa treatment in your home'
+    cat: [Web]
+    filters: [filter-web]
+
+  - filename: '15.jpg'
+    title: 'Random title'
+    cat: [Web]
+    filters: [filter-print]
+
+  - filename: '16.jpg'
+    title: 'View of my screen'
+    cat: [Branding, Print]
+    filters: [filter-branding, filter-print]
+
+  - filename: '17.jpg'
+    title: 'Spa treatment in your home'
+    cat: [Web]
+    filters: [filter-web]
+
+  - filename: '18.jpg'
+    title: 'Random title'
+    cat: [Web]
+    filters: [filter-print]
+
+  - filename: '19.jpg'
+    title: 'View of my screen'
+    cat: [Branding, Print]
+    filters: [filter-branding, filter-print]
+
+  - filename: '20.jpg'
+    title: 'Spa treatment in your home'
+    cat: [Web]
+    filters: [filter-web]
+
+  - filename: '21.jpg'
+    title: 'Random title'
+    cat: [Web]
+    filters: [filter-print]
