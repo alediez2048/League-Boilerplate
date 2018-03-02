@@ -1,0 +1,10 @@
+images:
+  - filename: '13.jpg'
+    title: 'View of my screen'
+    cat: [Branding, Print]
+    filters: [filter-branding, filter-print]
+
+  - filename: '14.jpg'
+    title: 'Spa treatment in your home'
+    cat: [Web]
+    filters: [filter-web]
