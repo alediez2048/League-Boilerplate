@@ -1,0 +1,17 @@
+<div class="widget widget-categories">
+  <div class="widget--title">
+    <h5>categories</h5>
+  </div>
+  <div class="widget--conten button-group filter-button-group">
+    <ul class="list-unstyled">
+      {% for category in site.categories | sort %}
+        <li>
+          <a class="cat" data-filter=".{{ category | first }}">{{ category | first }}<span>({{ category | last | size }})</span></a>
+        </li>
+      {% endfor %}
+      <li>
+        <a class="cat active" data-filter="*">All<span>({{ site.posts | size }})</span></a>
+      </li>
+    </ul>
+  </div>
+</div>

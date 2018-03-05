@@ -1,0 +1,84 @@
+// Custom styling for displaying lunr.js search result properly
+// Start Search Style
+
+p.p {
+  margin-bottom: 0.5em;
+  color: #616161;
+}
+
+p.f {
+  padding-left: 10px;
+  margin-bottom: 10px;
+  color: #616161;
+}
+
+.result.entry-desc p {
+  margin-bottom: 0.5em;
+}
+
+.widget-recent-posts .result img {
+  left: 5px;
+}
+
+.blog-entry #search {
+  text-transform: none;
+  padding-left: 10px;
+}
+
+input.search-input {
+  margin-bottom: 1em;
+}
+
+#results hr {
+  margin: 10px auto;
+}
+
+// End Search Style
+
+// <--- Search modal styling START --->
+
+.module-search.module-active .pos-vertical-center{
+  top: 10%;
+}
+
+// #results-nav .entry-title a+p{
+//   color: #FFFFFF;
+// }
+
+.module-search.module-active .container-nav {
+  margin-top: 70px;
+}
+
+#results-nav .entry .entry-title {
+  a {
+    color : #1BB580;
+
+    &:hover {
+      color: #26FFB4;
+    }
+  }
+
+  p {
+    color: #FFFFFF;
+  }
+
+  ~p {
+    color : #FFFFFF;
+  }
+
+}
+
+#results-nav p {
+  color: #FFFFFF;
+}
+
+.module-fullscreen {
+  overflow: auto;
+}
+// <--- Search modal styling END --->
+
+// <--- Category list styling START --->
+#widget-cat {
+  margin-bottom: 0px;
+}
+// <--- Category list styling END --->
