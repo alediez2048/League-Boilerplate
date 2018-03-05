@@ -13,14 +13,14 @@
               <li><a href="{{ "/index.html" | relative_url }}">Home</a></li>
               <li><a href="{{ "/portfolio.html" | relative_url }}">Portfolio</a></li>
               <li><a href="{{ "/blog/" | relative_url }}">Blog</a></li>
-              <li><a href="{{ "/social-media.html" | relative_url }}">Social Media</a></li>
-              <li><a href="{{ "/projects.html" | relative_url }}">Projects + Orgs</a></li>
+<!--               <li><a href="{{ "/social-media.html" | relative_url }}">Social Media</a></li>
+              <li><a href="{{ "/projects.html" | relative_url }}">Projects + Orgs</a></li> -->
             </ul>
           </div>
         </div>
         <div class="col-xs-12 col-sm-1 col-md-2">
           <div class="footer--logo text--center">
-            <img src={{ "assets/images/logo/logo-footer.png" | relative_url}} alt="logo">
+            <img src={{ "/assets/images/logo/digitalLogo_light.png" | relative_url}} alt="logo">
           </div>
         </div>
         <div class="col-xs-12 col-sm-5 col-md-5">
@@ -40,6 +40,7 @@
 <script src="{{ "js/jquery-2.2.4.min.js" | relative_url }}"></script>
 <script src="{{ "js/plugins.js" | relative_url }}"></script>
 <script src="{{ "js/functions.js" | relative_url }}"></script>
+<script src="{{ "js/translate.js" | relative_url }}"></script>
 <!-- RS5.0 Core JS Files -->
 <script type="text/javascript" src="{{ "revolution/js/jquery.themepunch.tools.min.js?rev=5.0" | relative_url }}"></script>
 <script type="text/javascript" src="{{ "revolution/js/jquery.themepunch.revolution.min.js?rev=5.0" | relative_url }}"></script>
@@ -59,6 +60,17 @@
 {% if page.type == 'homepage' %}
   <script src="{{ "js/jquery.background-video.js" | relative_url }}"></script>
 {% endif %}
+
 {% if page.type == 'portfolios' %}
   <script src="{{ "js/jquery.load-more.js" | relative_url }}"></script>
 {% endif %}
+
+<!-- Google Translat Script -->
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,en,es,jv,ko,pa,pt,ru,zh-CN', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+

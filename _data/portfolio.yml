@@ -1,7 +1,7 @@
 images:
   - filename: '13.jpg'
     title: 'View of my screen'
-    cat: [Branding, Print]
+    cat: [Campaign, Full Stack]
     filters: [filter-branding, filter-print]
 
   - filename: '14.jpg'
@@ -11,12 +11,12 @@ images:
 
   - filename: '15.jpg'
     title: 'Printing is an Art'
-    cat: ['Print']
+    cat: ['Full Stack']
     filters: [filter-print]
 
   - filename: '16.jpg'
     title: 'View of my screen'
-    cat: [Branding, Print]
+    cat: [Campaign, Full Stack]
     filters: [filter-branding, filter-print]
 
   - filename: '17.jpg'
@@ -31,7 +31,7 @@ images:
 
   - filename: '19.jpg'
     title: 'Branding development'
-    cat: [Branding, Print]
+    cat: [Campaign, Full Stack]
     filters: [filter-branding, filter-print]
 
   - filename: '20.jpg'
@@ -41,5 +41,5 @@ images:
 
   - filename: '21.jpg'
     title: 'Nice Print title'
-    cat: ['Print']
+    cat: ['Full Stack']
     filters: [filter-print]
