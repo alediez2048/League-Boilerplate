@@ -1,0 +1,45 @@
+images:
+  - filename: '13.jpg'
+    title: 'View of my screen'
+    cat: [Campaign, Full Stack]
+    filters: [filter-branding, filter-print]
+
+  - filename: '14.jpg'
+    title: 'Spa treatment in your home'
+    cat: ['Web Development']
+    filters: [filter-web]
+
+  - filename: '15.jpg'
+    title: 'Printing is an Art'
+    cat: ['Full Stack']
+    filters: [filter-print]
+
+  - filename: '16.jpg'
+    title: 'View of my screen'
+    cat: [Campaign, Full Stack]
+    filters: [filter-branding, filter-print]
+
+  - filename: '17.jpg'
+    title: 'Web development agency'
+    cat: ['Web Development']
+    filters: [filter-web]
+
+  - filename: '18.jpg'
+    title: 'Web dev in 2018'
+    cat: ['Web Development']
+    filters: [filter-web]
+
+  - filename: '19.jpg'
+    title: 'Branding development'
+    cat: [Campaign, Full Stack]
+    filters: [filter-branding, filter-print]
+
+  - filename: '20.jpg'
+    title: 'Spa treatment in your home'
+    cat: ['Packaging']
+    filters: [filter-packaging]
+
+  - filename: '21.jpg'
+    title: 'Nice Print title'
+    cat: ['Full Stack']
+    filters: [filter-print]
