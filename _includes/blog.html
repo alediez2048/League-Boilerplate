@@ -97,10 +97,13 @@
 				<div class="blog-entry">
 					<div class="entry--img">
 						<a href="{{ post.url | relative_url }}">
-<!-- 							<img src={{ "assets/images/blog/grid/" | relative_url}}{{ post.thumb }} alt="entry image"/> -->
-
-  <iframe src="http://www.youtube.com/embed/W7qWa52k-nE"
-   width="360" height="215" frameborder="0" allowfullscreen></iframe>
+							{% if post.videos %}
+						    <div class="yt-video-container">
+						        <iframe class="yt-video" src="https://www.youtube.com/embed/{{ post.videos }}" frameborder="0" allowfullscreen></iframe>
+						    </div>
+							{% else %}
+								<img src={{ "assets/images/blog/grid/" | relative_url}}{{ post.thumb }} alt="entry image"/>
+							{% endif %}
 						</a>
 					</div>
 					<div class="entry--content">
