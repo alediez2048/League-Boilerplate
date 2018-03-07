@@ -34,7 +34,7 @@ layout: default
                         <div class="widget--content">
                             {% for post in site.posts limit: 2 %}
                             <div class="entry">
-<!--                                 <img src={{ "assets/images/blog/thumb/" | relative_url }}{{post.thumb}} alt="title"> -->
+                                <img src={{ "assets/images/blog/thumb/" | relative_url }}{{post.thumb}} alt="title">
                                 <div class="entry-desc">
                                     <div class="entry-title">
                                         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -56,11 +56,17 @@ layout: default
             <div class="col-xs-12 col-sm-12 col-md-9">
                 <!-- Blog Entry -->
                 <div id="results" class="blog-entry">
+                    {% if page.videos %}
+                        <div class="yt-video-container">
+                            <iframe class="yt-video" src="https://www.youtube.com/embed/{{ page.videos }}" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    {% else %}
                     <div class="entry--img">
                         <a>
                           <img src={{ "assets/images/blog/standard/" | relative_url }}{{page.thumb}} alt="entry image">
                         </a>
                     </div>
+                    {% endif %}
                     <div class="entry--content">
                         <div class="entry--format">
                             <i class="fa fa-image"></i>
