@@ -4,7 +4,7 @@ title:  "How to build a Quality Portfolio on a Budget"
 date:   2016-07-21 09:11:03
 thumb: 7.jpg
 categories: jekyll update
-videos: W7qWa52k-nE
+videos: 6f3uxLumaCk
 ---
 
 
