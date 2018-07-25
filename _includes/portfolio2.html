@@ -330,7 +330,7 @@
             {% for image in site.data.portfolio.images %}
 
             <!-- Portfolio #xx -->
-            <div class="hiddenItem col-xs-12 col-sm-6 col-md-4 portfolio-item{% if image.filters.size > 1 %}{% for filter in image.filters %} {{ filter | rstrip }}{% endfor %}{% else %} {{ image.filters }}{% endif %}">
+          <!--   <div class="hiddenItem col-xs-12 col-sm-6 col-md-4 portfolio-item{% if image.filters.size > 1 %}{% for filter in image.filters %} {{ filter | rstrip }}{% endfor %}{% else %} {{ image.filters }}{% endif %}">
                 <div class="portfolio--img">
                     <img src="{{ "assets/images/portfolio/grid/3col/more/" | relative_url }}{{ image.filename }}" alt="Portfolio Item">
                     <div class="portfolio--hover">
@@ -338,21 +338,21 @@
                             <div class="pos-vertical-center">
                                 <div class="portfolio--zoom">
                                     <a class="img-gallery-item" href="{{ "assets/images/portfolio/grid/3col/more/"| relative_url }}{{ image.filename }}" title="{{ image.title }}"></a>
-                                    <!-- <a class="img-gallery-item" href="assets/images/portfolio/full/4.jpg" title="Portfolio Item"></a> -->
+                                
                                 </div>
                                 <div class="portfolio--title">
                                     <h4><a href="#">{{ image.title }}</a></h4>
                                 </div>
                                 <div class="portfolio--cat">{% for categor in image.cat  %}<a href="#">{{ categor }}</a>{% if forloop.last == false %},{% endif %}{% endfor %}</div>
-                                  <!-- <a href="#">Branding</a> , <a href="#">Print</a> -->
+                              
                             </div>
                         </div>
-                        <!-- .Portfolio-action end -->
+                      
                     </div>
-                    <!-- .Portfolio-hover end -->
+                  
                 </div>
-                <!-- .Portfolio-img end -->
-            </div>
+              
+            </div> -->
             <!-- . portfolio-item end -->
             {% endfor %}
         </div>
